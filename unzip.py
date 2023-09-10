@@ -1,7 +1,7 @@
 import zipfile
 import os
 
-zip_file = "train_dataset_DCS.zip"
+zip_file = "test_dataset__.zip"
 
 with zipfile.ZipFile(zip_file, 'r') as zip_ref:
     zip_ref.extractall()
